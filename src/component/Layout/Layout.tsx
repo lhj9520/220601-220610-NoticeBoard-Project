@@ -36,7 +36,7 @@ const TabMenu = styled.div`
 
 .submenufocused{
     width:100% auto;
-    padding: 15px 15px;
+    padding: 15px 22px;
     cursor: pointer;
     background-color: #333333;
     color: #fff;
@@ -68,7 +68,7 @@ const menuList = [
         content : <FoodList />,
     },
     {
-        title: "음식 입력",
+        title: "음식은?",
         content : <FoodMemo />,
     },
 ];
