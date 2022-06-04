@@ -1,11 +1,21 @@
+import styled from "styled-components"
+
+const Footerdiv = styled.div`
+  color: #555555; //텍스트 색상
+  text-align: left; //텍스트 정렬 방향
+  height: 50px; //높이
+  position: absolute;
+  bottom: 0px;
+`;
+
 const Footer = () =>{
     return(
-        <div>
+        <Footerdiv>
             <footer id="footer">
                 <br />푸터입니다잉
             </footer>
-        </div>
+        </Footerdiv>
     )
 }
 
-export default Footer //다른 파일에서 찾을 수 있도록 export
+export default Footer
